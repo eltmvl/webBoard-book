@@ -63,7 +63,7 @@ var main = {
             dataType: 'json',
             contentType:'application/json; charset=utf-8'
         }).done(function() {
-            alert('Post has been deleted.');
+            alert('Deleted Successfully');
             window.location.href = '/';
         }).fail(function (error) {
             alert(JSON.stringify(error));
