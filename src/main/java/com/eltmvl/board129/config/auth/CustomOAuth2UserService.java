@@ -6,7 +6,6 @@ import com.eltmvl.board129.config.auth.dto.SessionUser;
 import com.eltmvl.board129.domain.user.User;
 import com.eltmvl.board129.domain.user.UserRepository;
 
-
 import jakarta.servlet.http.HttpSession;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
