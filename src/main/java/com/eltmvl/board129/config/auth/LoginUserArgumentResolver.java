@@ -1,7 +1,7 @@
 package com.eltmvl.board129.config.auth;
 
 import com.eltmvl.board129.config.auth.dto.SessionUser;
-import jakarta.servlet.http.HttpSession;
+import javax.servlet.http.HttpSession;
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.MethodParameter;
 import org.springframework.stereotype.Component;

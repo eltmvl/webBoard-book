@@ -2,7 +2,7 @@ package com.eltmvl.board129.domain.posts;
 
 
 import com.eltmvl.board129.domain.BaseTimeEntity;
-import jakarta.persistence.*;
+import javax.persistence.*;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

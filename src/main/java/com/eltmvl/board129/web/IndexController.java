@@ -4,7 +4,7 @@ import com.eltmvl.board129.config.auth.LoginUser;
 import com.eltmvl.board129.config.auth.dto.SessionUser;
 import com.eltmvl.board129.service.posts.PostsService;
 import com.eltmvl.board129.web.Dto.PostsResponseDto;
-import jakarta.servlet.http.HttpSession;
+import javax.servlet.http.HttpSession;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
